@@ -1,3 +1,7 @@
+Jump over to the [GitHub pages](https://d-fect.github.io/freecodecamp/) to read more about this repository.
+
+*************************************************************************************************************
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/d-fect/freecodecamp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.

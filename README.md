@@ -1,6 +1,17 @@
 Jump over to the [GitHub pages](https://d-fect.github.io/freecodecamp/) to read more about this repository.
 
 *************************************************************************************************************
+_I've just kept the text below to remind me of how Markup looks. No need to read it, since it's just the standard GitHub README.md file contents._
+*************************************************************************************************************
+
+
+
+
+
+
+
+
+
 
 ## Welcome to GitHub Pages
 

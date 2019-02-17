@@ -4,33 +4,82 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/theme.css">
+  <link rel="stylesheet" type="text/css" href="css/heart.css">
+
+  <style>
+    #navbar {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      background-color: #767676;
+    }
+
+    nav ul {
+      margin: 0px;
+      padding: 5px 0px 5px 30px;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
 
   <title>freeCodeCamp projects site</title>
 </head>
 
 <body>
-  <div id="intro">
-    <h1 class="main-heading">My freeCodeCamp projects site</h1>
-    <h2>Introduction</h2>
-    <p class="updated">Updated: feb 16th, 2019</p>
-    <p>This site is pretty empty right now, but will fill up with projects when I get to them in the curriculum.</p>
-    <p>I have now started on the Basic CSS part of this course, so this page is now updated with some rather simple CSS.
-    </p>
-    <p>I want this page to reflect where I am in the course, so when I learn more CSS, javascript etc., this page should
-      hopefully start to incorporate more of that and get nicer to look at and with more functionality.</p>
-    <p>Hope you'll tag along on the journey.</p>
-  </div>
-
-  <div id="completed">
-    <h2>Completed parts</h2>
+  <!-- Just some Navbar code for later use
+  <nav id="navbar">
     <ul>
-      <li>Introduction to Basic HTML and HTML5<br>Check out the <a href="CatPhotoApp_basicHTML.html"
-          target="_blank">CatPhotoApp</a> :D</li>
-      <li>Introduction to Basic CSS<br>This page have been styled with some simple CSS.<br>Also did some more stuff with
-        the <a href="CatPhotoApp_basicCSS.html" target="_blank">CatPhotoApp</a></li>
+      <li><a href="">Home</a></li>
+      <li><a href="">Intro</a></li>
+      <li><a href="">Progress</a></li>
     </ul>
-  </div>
+  </nav>
+  -->
+  <div class="heart" id="rotating"></div>
 
+  <header>
+    <h1 class="main-heading">My freeCodeCamp projects site</h1>
+  </header>
+
+  <main>
+    <div id="intro">
+      <h2>Introduction</h2>
+      <p class="updated">Updated: feb 17th, 2019</p>
+      <p>This site is pretty empty right now, but will fill up with projects when I get to them in the curriculum.</p>
+      <p>I have now started on the Basic CSS part of this course, so this page is now updated with some rather simple
+        CSS.
+      </p>
+      <p>I want this page to reflect where I am in the course, so when I learn more CSS, javascript etc., this page
+        should
+        hopefully start to incorporate more of that and get nicer to look at and with more functionality.</p>
+      <p>Hope you'll tag along on the journey.</p>
+    </div>
+
+    <div id="progress">
+      <h2>Completed Parts</h2>
+      <ul>
+        <li>Introduction to Basic HTML and HTML5<br>Check out the <a href="CatPhotoApp_basicHTML.html"
+            target="_blank">CatPhotoApp</a> :D</li>
+        <li>Introduction to Basic CSS<br>This page have been styled with some simple CSS.<br>Also did some more stuff
+          with
+          the <a href="CatPhotoApp_basicCSS.html" target="_blank">CatPhotoApp</a></li>
+      </ul>
+      <h2>Part in Progress</h2>
+      <ul>
+        <li>Applied Visual Design</li>
+        <li>Basic JavaScript</li>
+      </ul>
+    </div>
+
+  </main>
 </body>
 
 </html>

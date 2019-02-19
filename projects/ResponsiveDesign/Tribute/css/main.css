@@ -1,0 +1,42 @@
+body {
+    background:darkkhaki;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 28px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+ul {
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+
+#footer {
+    background-color:darkolivegreen;
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+}
+
+#footer a {
+    color: wheat;
+    text-decoration: underline;
+}

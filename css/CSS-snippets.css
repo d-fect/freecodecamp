@@ -36,4 +36,8 @@ img {
   grid-row-gap: 10px;
   grid-column-gap: 20px;
   grid-gap: 10px 20px;  /* Short hand for the two previous combined */
+  grid-template-areas:
+  "header  header"
+  "advert content"
+  "footer footer";
 }

@@ -24,3 +24,16 @@ img {
   height: auto;
 }
 
+/* Grid templates */
+.container {
+  font-size: 40px;
+  min-height: 300px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-rows: 50px 50px 15% 1fr 2fr;
+  grid-template-columns: 1fr 100px 2fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 20px;
+  grid-gap: 10px 20px;  /* Short hand for the two previous combined */
+}

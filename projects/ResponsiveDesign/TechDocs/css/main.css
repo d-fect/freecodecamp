@@ -25,7 +25,7 @@ body {
         text-align: center;
     }
 
-    li {
+    #navbar li {
         position: fixed;
         left: -10000px;
     }

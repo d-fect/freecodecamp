@@ -6,34 +6,57 @@ body {
     background: hsl(0, 0%, 100%);
 }
 
-#navbar {
-    position: fixed;
-    top: 30px;
-    left: -10000px;
-    height: 100%; 
-    width: 150px;
-    overflow: hidden;
-    text-align: left;
+@media (max-width: 1280px) {
+    #navbar {
+        position: fixed;
+        top: 30px;
+        left: -10000px;
+        width: 200px;
+        text-align: left;
+        /* Follow two lines disables scrolling */
+        height: 100%; 
+        overflow: hidden;
     }
 
-#navbar #header {
-    font-size: 28px;
-}
+    #navbar #header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        text-align: center;
+    }
 
-@media (min-width: 1281px) {
+    li {
+        position: fixed;
+        left: -10000px;
+    }
+}    
+
 #navbar {
     position: fixed;
     top: 30px;
-    left: 10px;
+    left: -20px;
     height: 100%; 
-    width: 150px;
+    width: 250px;
     overflow: hidden;
     text-align: left;
     font-size: 18px;
-    }
+    padding: 20px;
 }
 
-a {
+#navbar #header {
+    font-size: 22px;
+    border-bottom: 3px solid #AAA;
+    text-align: center;
+}
+
+#navbar li {
+        margin-top: 5px;
+        list-style: none;
+        margin-left: -20px;
+        font-size: 14px;
+}
+
+#navbar a {
     text-decoration: none;
 }
 
@@ -42,20 +65,26 @@ a:hover {
   }
 
 a:visited {
-    color: hsl(224, 100%, 14%);
+    color: hsl(0, 0%, 0%);
 }
 
 #main {
+    padding: 15px;
     margin: 10px;
+}
+
+#main-doc #header {
+    font-size: 22px;
 }
 
 @media (min-width: 1281px) {
     #main {
-    margin: 0 0 0 150px;
-    border-left: 1px solid #000;
+    margin: -10px 0 0 240px;
+    border-left: 3px solid #AAA;
+    height: 100vh;
+    text-align: justify;
     }
 }
-
 
 #footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -64,8 +93,9 @@ a:visited {
     position: fixed;
     bottom: 0px;
     width: 100%;
-    margin: 0 -165px 0 -165px;
-    padding: 0 15px 0 15px;
+    margin: 0 -500px 0 -500px;
+    padding: 0 500px 0 500px;
+    text-align: center;
 }
 
 #footer a {

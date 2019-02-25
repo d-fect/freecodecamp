@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    color:hsl(0, 0%, 0%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 1280px) {
+    #main {
+        margin: -10px 0 0 240px;
+        text-align: justify;
+    }
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    text-align: center;
+}
+
+#welcome-section {
+    display: flexbox;
+    height: 100vh;
+    background: hsl(37, 43%, 73%);
+    margin: -19px -8px -5px -8px;
+}
+
+#welcome-section h1 {
+    justify-content: center;
+    align-content: center;
+}
+
+#footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color:darkolivegreen;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0 -500px 0 -500px;
+    padding: 0 500px 0 500px;
+    text-align: center;
+}
+
+#footer a {
+    color: wheat;
+    text-decoration: underline;
+}

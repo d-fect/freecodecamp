@@ -45,9 +45,12 @@ img:hover {
 
 #welcome-section {
     top: 0;
-    min-height: 55vh;
-    padding-top: 45vh;
+    height: 100vh;
     background: hsl(37, 43%, 73%);
+}
+
+#welcome-section h1 {
+    padding-top: 40vh;
 }
 
 #welcome-section p {

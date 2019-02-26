@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+h1 {
+    text-align: center;
+}
+
 #navbar {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
@@ -20,6 +24,10 @@ body {
     text-align: center;
     padding: 0.5em;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr;
+    grid-gap: 10px 10px;    
 }
 
 #navbar a {
@@ -37,21 +45,48 @@ body {
 #info-section {
     margin-top: -20px;
     background: rgb(216,208,157);
-    padding: 0.1em 3% 0.1em 3%;
+    padding: 2.5em 3% 2em 3%;
     text-align: justify;
 }
 
-#info-section h1 {
-    text-align: center;
-}
-
 #projects {
-    padding: 0.1em 3% 0.1em 3%;
+    padding: 2.5em 3% 4em 3%;
     background: rgb(216, 178, 157);
 }
 
+#projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 10px;
+}
+
+.project-tile {
+    justify-self: center;
+    align-self: center;
+}
+
+#projects figure {
+    border-radius: 10px;
+    width: 400px;
+    background: hsl(37, 43%, 73%);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#projects a {
+    text-decoration: none;
+    color: black;
+}
+
+#projects a:hover {
+    font-style: italic;
+}
+
+#projects figcaption {
+    font-size: 20px;
+}
+
 #projects img:hover {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 #footer {
@@ -69,8 +104,10 @@ body {
     text-decoration: underline;
 }
 
-@media (max-width: 1280px) {
-    #main {
-        margin: 0;
+@media (max-width: 1100px) {
+    #projects-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px 10px;
     }
 }

@@ -8,7 +8,12 @@
 
 <body>
     <main id="main">
-        <nav id="navbar"><a href="#" target="_blank">Project Navbar</a></nav>
+        <nav id="navbar">
+            <div></div>
+            <div><a href="#welcome-section">Welcome</a></div>
+            <div><a href="#info-section">Information</a></div>
+            <div><a href="#projects">Projects</a></div>
+        </nav>
 
         <div id="welcome-section">
             <h1>My freeCodeCamp portfolio</h1>
@@ -40,39 +45,41 @@
 
 
         <div id="projects">
-            <div class="project-tile">
-                <figure>
-                    <img src="images/Tribute.jpg" alt="Tribute to Gunnar Sønsteby">
-                    <figcaption>Tribute Page</figcaption>
-                </figure>
-            </div>
-
-            <div class="project-tile">
-                    <figure>
-                        <img src="images/Survey.jpg" alt="Survey Form">
-                        <figcaption>Survey Form</figcaption>
+            <h1>Responsive Web Design Projects</h1>
+            <div id="projects-grid">
+                <div class="project-tile">
+                    <figure id="proj"><a
+                            href="file:///D:/Repos/freecodecamp/projects/ResponsiveDesign/Tribute/index.html">
+                            <img src="images/Tribute.jpg" alt="Tribute to Gunnar Sønsteby">
+                            <figcaption>Tribute Page</figcaption>
+                        </a>
                     </figure>
                 </div>
 
                 <div class="project-tile">
-                        <figure>
+                    <figure><a href="file:///D:/Repos/freecodecamp/projects/ResponsiveDesign/Survey/index.html">
+                            <img src="images/Survey.jpg" alt="Survey Form">
+                            <figcaption>Survey Form</figcaption>
+                        </a>
+                    </figure>
+                </div>
+
+                <div class="project-tile">
+                    <figure><a href="file:///D:/Repos/freecodecamp/projects/ResponsiveDesign/LandingPage/index.html">
                             <img src="images/ProductLanding.jpg" alt="Product Landing Page">
                             <figcaption>Product Landing Page</figcaption>
-                        </figure>
-                    </div>
-                    <div class="project-tile">
-                            <figure>
-                                <img src="images/TechDocs.jpg" alt="Technical Documentation Page">
-                                <figcaption>Technical Documentation Page</figcaption>
-                            </figure>
-                        </div>
-
+                        </a>
+                    </figure>
+                </div>
+                <div class="project-tile">
+                    <figure><a href="file:///D:/Repos/freecodecamp/projects/ResponsiveDesign/TechDocs/index.html">
+                            <img src="images/TechDocs.jpg" alt="Technical Documentation Page">
+                            <figcaption>Technical Documentation Page</figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </div>
         </div>
-
-        <div>
-            <p>This is a <a id="profile-link" href="#" target="_blank">ink to a project</a> here.</p>
-        </div>
-
     </main>
 
     <footer id="footer">

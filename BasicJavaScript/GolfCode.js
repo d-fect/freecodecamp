@@ -30,6 +30,7 @@ function golfScore(par, strokes) {
 // Change these values to test
 golfScore(5, 4);
 
+/*
 console.log("4,1 " + golfScore(4, 1));
 console.log("4,2 " + golfScore(4, 2));
 console.log("5,2 " + golfScore(5, 2));
@@ -41,3 +42,4 @@ console.log("4,5 " + golfScore(4, 5));
 console.log("4,6 " + golfScore(4, 6));
 console.log("4,7 " + golfScore(4, 7));
 console.log("5,9 " + golfScore(5, 9));
+*/

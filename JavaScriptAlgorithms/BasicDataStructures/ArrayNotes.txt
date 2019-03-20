@@ -1,9 +1,18 @@
 Array functions
 ===============
 
-.pop            = Removes the last element 
+.pop            = Removes the last element
 .push           = Adds and element to the end
 .shift          = Removes the first element
 .unshift        = Adds an element to the start
 .splice(x,y(,z) = Removes y elements at x, and optionally adds the element(s) z instead
 .slice(x, y)    = Extracts/copies elements from position x up to but not including position y
+... (spread)    = Copy ALL elements, let thatArray = [...thisArray];
+indexOf
+
+Methods to iterate over an array
+every()
+forEach()
+map()
+for-loop
+
